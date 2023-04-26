@@ -1,0 +1,118 @@
+*{
+    margin: none;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 203, 144) ;
+    border: 2px solid black;
+    padding: 30px 100px;
+    width: 100;
+    height: 100%;
+    margin: 0.5rem;
+    padding: 1rem;
+    
+}
+    /* Extra small devices (600px and down) */
+    @media only screen and (max-width: 600px) {
+        .encabezado {
+        margin: auto;}
+    }
+    
+        /* Small devices (600px and up) */
+    @media only screen and (min-width: 600px) {
+        .encabezado {
+        margin: auto;}
+    }
+        /* Medium devices (768px and up) */
+    @media only screen and (min-width: 768px) {
+        .encabezado {
+        margin: auto;}
+    }
+        
+        /* Large devices (992px and up) */
+    @media only screen and (min-width: 992px) {
+        .encabezado {
+        margin: auto;}
+    }
+        /* Extra large devices (1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .encabezado {margin: auto;
+            }
+    }
+
+h1, h2, h3{
+    color: rgb(99, 42, 42);
+}
+
+.Portada{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+header{
+    background-color:rgb(207, 203, 144) ;
+    align-items: center;
+}
+
+
+.Img1 { 
+        margin-right: 10px; /* Ajusta el margen derecho de la imagen */
+        border-radius: 10px;
+      }
+
+.Titulo{
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0; /* Elimina el margen predeterminado del título */
+  }
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 150px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: chartreuse;
+    font-size: 30px;
+}
+section{
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 2rem;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+#ref{
+    text-align: center;
+}
+
+#seccion1{
+    border: 2px solid red;
+    padding: 2rem;
+    width: max-content 25%;
+    background-color: darkcyan;
+
+}
+#seccion2{
+    border: 2px solid red;
+    padding: 2rem;
+    width: max-content 25%;
+
+
+}
+
+
+
