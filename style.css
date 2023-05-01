@@ -1,118 +1,123 @@
 *{
     margin: none;
     font-family: Arial;
+}
+* {
     box-sizing: border-box;
-}
-body{
-    background-color: rgb(207, 203, 144) ;
-    border: 2px solid black;
-    padding: 30px 100px;
-    width: 100;
-    height: 100%;
-    margin: 0.5rem;
-    padding: 1rem;
-    
-}
-    /* Extra small devices (600px and down) */
-    @media only screen and (max-width: 600px) {
-        .encabezado {
-        margin: auto;}
-    }
-    
-        /* Small devices (600px and up) */
-    @media only screen and (min-width: 600px) {
-        .encabezado {
-        margin: auto;}
-    }
-        /* Medium devices (768px and up) */
-    @media only screen and (min-width: 768px) {
-        .encabezado {
-        margin: auto;}
-    }
-        
-        /* Large devices (992px and up) */
-    @media only screen and (min-width: 992px) {
-        .encabezado {
-        margin: auto;}
-    }
-        /* Extra large devices (1200px and up) */
-    @media only screen and (min-width: 1200px) {
-        .encabezado {margin: auto;
-            }
-    }
+  }
 
-h1, h2, h3{
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    color: rgb(109, 94, 9);
+}
+
+h2, h3{
     color: rgb(99, 42, 42);
-}
+    font-family: 'Delicious Handrawn', cursive;
 
-.Portada{
-    width: 100%;
-    height: 300px;
-    border-radius: 20px;
 }
 
 header{
-    background-color:rgb(207, 203, 144) ;
-    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color:rgb(168, 164, 110) ;
+    text-align: center;
+    background-image: url("https://img.freepik.com/fotos-premium/manos-mujer-recortadas-moldeando-arcilla-haciendo-ceramica-arcilla-taller_67155-22849.jpg?w=1060");
+    background-size: 100vw 100vh;
+}
+
+body{
+    background-color: rgb(207, 203, 144) ;
+    margin:auto;
+    padding: 3vw 3vh;
+}
+
+p{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.1); }
+    to { transform: none; }
 }
 
 
 .Img1 { 
-        margin-right: 10px; /* Ajusta el margen derecho de la imagen */
-        border-radius: 10px;
-      }
+
+        margin-right : 90vw; /* Ajusta el margen derecho de la imagen */
+        margin-top: 40vh;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 150px;
+        animation: latidos 1.3s infinite;
+        }
+        
+
 
 .Titulo{
     display: flex;
-    align-items: center;
-  }
+    margin-left: 32vw;
+    margin-top:-80vh;
+}
 
-  h1 {
-    font-size: 50px;
-    margin: 0; /* Elimina el margen predeterminado del título */
-  }
-nav {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+nav{
+    text-align: center;
     word-spacing: 150px;
 }
-nav a{
-    text-decoration: none;
-    font-size: 20px;
-}
-nav a:hover{
-    background-color: chartreuse;
-    font-size: 30px;
-}
-section{
-    border: 2px solid black;
-    margin: 2rem;
-    padding: 2rem;
-    height: 30rem;
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-}
 
-#ref{
+.boton{
+    margin-top: 10vh;
+    border: 10px tomato;
+    font-size: 20px; 
+    border-radius: 5px;
+    background-color: burlywood;
+    text-decoration: none;
+}
+.boton:hover {
+    font-size: 23px;
+    background-color: #0099cc;
+  }
+/*.Portada{
+    width: 100vh;
+    height: 50vh;
+}*/
+
+footer{
+    margin: 40px;
     text-align: center;
 }
 
-#seccion1{
-    border: 2px solid red;
-    padding: 2rem;
-    width: max-content 25%;
-    background-color: darkcyan;
 
-}
-#seccion2{
-    border: 2px solid red;
-    padding: 2rem;
-    width: max-content 25%;
-
-
+.container{
+    background-color: rgb(189, 144, 8);
+    display: inline-flex;
+    width: 600px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.Arte{
+    text-align: center;
+}
+.ref{
+    font-size: 18px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.ref:hover {
+    font-size: 20px;
+    background-color:  #0099cc;
+}
 
+
+.Redes {
+    padding: 5vh;
+    word-spacing: 100px;
+
+}
 
